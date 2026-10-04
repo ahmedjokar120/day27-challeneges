@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JobFinder | Find Your Next Job</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="index.html"><span>SJ</span> Somali Jobs</a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <nav id="navMenu">
+      <a class="active" href="index.html">Home</a>
+      <a href="jobs.html">Find Jobs</a>
+      <a href="companies.html">Companies</a>
+      <a href="#about">About</a>
+      <a class="login" href="#">Login</a>
+      <a class="post-btn" href="jobs.html">Post a Job</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-content">
+      <div class="eyebrow"> 10,000+ opportunities waiting for you</div>
+      <h1>Find a job that <span>fits your future.</span></h1>
+      <p>Search thousands of jobs from trusted companies and discover your next career opportunity.</p>
+      <form class="search-box" id="homeSearch">
+        <div class="search-field"><span>⌕</span><input id="homeKeyword" type="text" placeholder="Job title or keyword"></div>
+        <div class="search-field"><span>⌖</span><input id="homeLocation" type="text" placeholder="City or location"></div>
+        <button class="primary-btn" type="submit">Search Jobs</button>
+      </form>
+      <div class="popular"><b>Popular:</b> <a href="jobs.html?search=Developer">Developer</a><a href="jobs.html?search=Designer">Designer</a><a href="jobs.html?search=Marketing">Marketing</a><a href="jobs.html?search=Accountant">Accountant</a></div>
+    </div>
+    <div class="hero-visual">
+      <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1000&q=85" alt="Professionals working together">
+      <div class="floating-card card-one"><strong>2,500+</strong><small>Companies hiring</small></div>
+      <div class="floating-card card-two"><strong>50K+</strong><small>Happy job seekers</small></div>
+      <div class="floating-card card-three">✓ <b>New job match!</b></div>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container stats-grid">
+    <div><strong>10K+</strong><span>Available Jobs</span></div>
+    <div><strong>2.5K+</strong><span>Companies</span></div>
+    <div><strong>50K+</strong><span>Job Seekers</span></div>
+    <div><strong>8K+</strong><span>Successful Hires</span></div>
+  </div>
+</section>
+
+<section class="section" id="categories">
+  <div class="container">
+    <div class="section-head"><div><span class="label">EXPLORE</span><h2>Popular job categories</h2></div><a href="jobs.html">View all jobs →</a></div>
+    <div class="category-grid">
+      <a class="category-card" href="jobs.html?category=Technology"><div class="cat-icon">⌘</div><h3>Technology</h3><p>1,840 jobs</p></a>
+      <a class="category-card" href="jobs.html?category=Healthcare"><div class="cat-icon">✚</div><h3>Healthcare</h3><p>920 jobs</p></a>
+      <a class="category-card" href="jobs.html?category=Finance"><div class="cat-icon">$</div><h3>Finance</h3><p>760 jobs</p></a>
+      <a class="category-card" href="jobs.html?category=Marketing"><div class="cat-icon">↗</div><h3>Marketing</h3><p>610 jobs</p></a>
+      <a class="category-card" href="jobs.html?category=Design"><div class="cat-icon">✦</div><h3>Design</h3><p>540 jobs</p></a>
+      <a class="category-card" href="jobs.html?category=Education"><div class="cat-icon">▣</div><h3>Education</h3><p>430 jobs</p></a>
+    </div>
+  </div>
+</section>
+
+<section class="section light">
+  <div class="container">
+    <div class="section-head"><div><span class="label">OPPORTUNITIES</span><h2>Featured jobs</h2></div><a href="jobs.html">Browse all →</a></div>
+    <div class="jobs-grid">
+      <article class="job-card">
+        <div class="job-top"><div class="company-logo blue">N</div><button class="save">♡</button></div>
+        <h3>Senior Frontend Developer</h3><p class="company">NovaTech · <span>Remote</span></p><div class="tags"><span>Full Time</span><span>Senior</span></div><div class="job-bottom"><b>$2,800–$3,600</b><a href="job-details.html">View job →</a></div>
+      </article>
+      <article class="job-card">
+        <div class="job-top"><div class="company-logo purple">C</div><button class="save">♡</button></div>
+        <h3>UI/UX Designer</h3><p class="company">CreativeHub · <span>Dubai</span></p><div class="tags"><span>Full Time</span><span>Mid Level</span></div><div class="job-bottom"><b>$2,000–$2,800</b><a href="job-details.html">View job →</a></div>
+      </article>
+      <article class="job-card">
+        <div class="job-top"><div class="company-logo orange">M</div><button class="save">♡</button></div>
+        <h3>Marketing Manager</h3><p class="company">Marketly · <span>Nairobi</span></p><div class="tags"><span>Full Time</span><span>3+ Years</span></div><div class="job-bottom"><b>$1,800–$2,500</b><a href="job-details.html">View job →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split-section" id="about">
+    <div class="image-stack"><img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=85" alt="Team meeting"><div class="mini-stat">✓ <b>Easy application</b><small>Apply in minutes</small></div></div>
+    <div class="content-block"><span class="label">WHY JOBFINDER?</span><h2>More than a job search. It's your next chapter.</h2><p>We make it easier to discover meaningful opportunities, connect with trusted employers, and move your career forward.</p><div class="feature-list"><div><b>01</b><span><strong>Trusted companies</strong><small>Discover verified employers and quality opportunities.</small></span></div><div><b>02</b><span><strong>Smart job search</strong><small>Use simple filters to find opportunities that fit you.</small></span></div><div><b>03</b><span><strong>Easy applications</strong><small>Spend less time searching and more time growing.</small></span></div></div></div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container cta-inner"><div><span class="label">YOUR NEXT MOVE</span><h2>Ready to find your next opportunity?</h2><p>Thousands of companies are looking for their next great hire.</p></div><a class="white-btn" href="jobs.html">Explore Jobs →</a></div>
+</section>
+</main>
+
+<footer class="footer"><div class="container footer-grid"><div><a class="logo light-logo" href="index.html"><span>SJ</span> Somali Jobs</a><p>Helping people find meaningful work and companies find great talent.</p></div><div><h4>Explore</h4><a href="jobs.html">Find Jobs</a><a href="companies.html">Companies</a><a href="index.html#categories">Categories</a></div><div><h4>Company</h4><a href="#about">About us</a><a href="#">Contact</a><a href="#">Privacy</a></div><div><h4>Follow us</h4><div class="socials"><a href="#">in</a><a href="#">f</a><a href="#">𝕏</a></div></div></div><div class="container copyright">© 2026 JobFinder. All rights reserved.</div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
